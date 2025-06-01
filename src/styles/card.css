@@ -1,0 +1,25 @@
+.card{
+    background: var(--card-bg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+    width: 30vw;
+    min-height: 50vh;
+    padding: 15px;
+    gap: 15px;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 3px;
+    justify-self: center;
+}
+
+.title_text {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: var( --slim-font);
+    justify-self: center;
+}

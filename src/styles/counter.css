@@ -1,0 +1,26 @@
+.counters {
+    background-color: var(--box-and-border-gray);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    border-radius: 8px;
+}
+.counters_wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var( --slim-font);
+    padding: 25px;
+}
+span{
+    color: var(--check-box-and-counter);
+    font-size: 35px;
+    font-weight: 500;
+    margin: 0;
+}
+p {
+    font-size: 20px;
+    margin: 0;
+}

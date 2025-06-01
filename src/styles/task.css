@@ -1,0 +1,60 @@
+.task  {
+    background-color: var(--box-and-border-gray);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.input_wrap{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 65%;
+}
+.btn_wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 15px;
+    width: 20%;
+    gap: 5px;
+}
+
+.edit_btn, .delete_btn{
+    color: var(--card-bg);
+    border: none;
+    border-radius: 6px;
+    padding: 8px 10px;
+}
+
+.edit_btn{
+    background-color: var(--edit-btn);
+}
+.delete_btn{
+    background-color: var(--delete-btn);
+}
+.input_wrap input{
+    width: 20px;
+    height: 20px;
+}
+
+input[type="checkbox"] {
+    accent-color: var(--check-box-and-counter); 
+}
+
+p{
+    font-size: 16px;
+    margin-left: 5px;
+    color: var(--bold-font);
+}
+
+
+.checked {
+    text-decoration: line-through;
+    color: gray;
+    opacity: 0.8; 
+  }

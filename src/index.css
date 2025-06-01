@@ -1,0 +1,37 @@
+@import './styles/card.css';
+@import './styles/counter.css';
+@import './styles/form.css';
+@import './styles/task.css';
+@import './styles/task_wrapper.css';
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --bg-color: linear-gradient(#677ae3, #7450a8);
+  --card-bg: #ffffff;
+  --box-and-border-gray: #f8f9fb;
+  --check-box-and-counter: #6586e7;
+
+  --slim-font:#838a92;
+  --bold-font: #32323a;
+
+  --add-task-btn: #667eea;
+  --edit-btn: #fcbf04;
+  --delete-btn: #df3447;
+ }
+
+ * {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg-color);
+  margin: 0;
+  height:100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

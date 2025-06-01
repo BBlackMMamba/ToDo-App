@@ -1,0 +1,31 @@
+.input_Form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.add_btn{
+    background-color: var(--add-task-btn);
+    color: var(--card-bg);
+    border: none;
+    font-size: 20px;
+    padding: 18px 12px;
+    margin-left: 7px;
+    border-radius: 8px;
+}
+
+.input_Form input {
+    width: 70%;
+    padding: 8px;
+    border: 3px solid var(--box-and-border-gray);
+    border-radius: 8px;
+}
+
+input:focus{
+    outline: none;
+}
+
+input::placeholder{
+    font-size: 20px;
+}
