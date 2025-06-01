@@ -24,3 +24,20 @@ p {
     font-size: 20px;
     margin: 0;
 }
+
+@media (max-width: 600px) {
+    .counters {
+      flex-direction: column;
+      width: 100%;
+    }
+    .counters_wrap {
+      padding: 15px;
+    }
+    span {
+      font-size: 25px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  

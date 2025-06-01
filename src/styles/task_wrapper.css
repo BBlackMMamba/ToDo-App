@@ -5,3 +5,11 @@
     height: auto;
     gap: 5px;
 }
+
+@media (max-width: 600px) {
+    .task_wrapper {
+      width: 100%;
+      gap: 8px;
+    }
+  }
+  
