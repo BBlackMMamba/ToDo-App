@@ -2,6 +2,7 @@
     background-color: var(--box-and-border-gray);
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     width: 90%;
     border-radius: 8px;
